@@ -48,8 +48,8 @@ function App() {
       <BrowserRouter>
         <button onClick={handleUrl} className='h_btn'><IoHomeOutline style={{fontSize:'25px'}} /></button>
         <Routes>
-      {/* home component */}
-          <Route path="/" element={<Home />} />
+      {/* home component
+          <Route path="/" element={<Home />} /> */}
           
       {/* Accordian component */}
           <Route path="/accordian" element={<Accordian />} />
