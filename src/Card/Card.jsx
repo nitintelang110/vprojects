@@ -31,7 +31,7 @@ const handleUrl = (url) => {
         <div className="btn">
         
         <button className='btn_desc' onClick={()=>alert(descriptions)}>description</button>
-        <button className='btn_view' onClick = {()=>handleUrl(view)}>view</button>
+        <button className='btn_view' onClick = {alert("hello")}>view</button>
          <button  className='btn_source'>source</button>
         </div>
     </div>
