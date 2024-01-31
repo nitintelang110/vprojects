@@ -11,7 +11,7 @@ export const Home = () => {
 const [info,setInfo] = useState()
 
 
-  const handleUrl = () => {
+  const handlemyUrl = () => {
      window.location.href = '/'
    }
     
@@ -22,6 +22,9 @@ const [info,setInfo] = useState()
   document.body.style.overflow = 'hidden'
 }
 
+const projectUrl = (view) =>{
+  window.location.href = view;
+}
 
   function closeShow() {
    const shows = document.getElementById("info_container").style
@@ -43,7 +46,7 @@ const [info,setInfo] = useState()
           </div>
           
           <div className="home_Link">
-        <h2 onClick={handleUrl}>Welcome To React Mini Project's</h2><br></br>
+        <h2 onClick={handlemyUrl}>Welcome To React Mini Project's</h2><br></br>
         <p>Maximum Project's Created Without Any Third Party Library</p>
 
        
@@ -65,7 +68,8 @@ const [info,setInfo] = useState()
           view={data.view} 
           source={data.source}
           description = {data.description}
-          alert={al}/>
+          alert={al}
+          handleUrl={projectUrl}/>
 
 
 

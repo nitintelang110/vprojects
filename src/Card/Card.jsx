@@ -7,15 +7,13 @@ import './Card.css'
 
 
 
- const Card = ({id,title,view,source,description,alert}) => {
+ const Card = ({id,title,view,source,description,alert,handleUrl}) => {
 
-  const [descriptions,setDescriptions] = useState(description)
+  const [descriptions,setDescriptions] = useState(description);
  
 
   
-  const handleUrl = (url) => {
-    alert("hello")
-  }
+ 
 
   return (
     <>
