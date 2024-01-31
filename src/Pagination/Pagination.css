@@ -67,6 +67,9 @@ width: 60%;
 background-color: rgb(0, 190, 127);
 }
 @media screen and (max-width:1024px) {
+    .table{
+        font-size: 14px;
+    }
 
 .page_number{
    gap: 2px;
