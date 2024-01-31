@@ -38,7 +38,7 @@ import ScrollToSection from './ScrollToSection/ScrollToSection'
 
 function App() {
 
-  const handleUrl = () => {
+  const handleHomeUrl = () => {
     window.location.href = '/';
    
 }
@@ -46,7 +46,7 @@ function App() {
 <>
 
       <BrowserRouter>
-        <button onClick={handleUrl} className='h_btn'><IoHomeOutline style={{fontSize:'25px'}} /></button>
+        <button onClick={handleHomeUrl} className='h_btn'><IoHomeOutline style={{fontSize:'25px'}} /></button>
         <Routes>
       {/* home component*/}
           <Route path="/" element={<Home />} /> 
