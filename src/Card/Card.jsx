@@ -14,7 +14,7 @@ import './Card.css'
 
   
   const handleUrl = (url) => {
-    alert(url)
+    alert("hello")
   }
 
   return (
