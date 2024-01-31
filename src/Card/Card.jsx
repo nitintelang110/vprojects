@@ -5,9 +5,7 @@ import './Card.css'
 
 
 
-const handleUrl = (url) => {
-  alert(url)
-}
+
 
  const Card = ({id,title,view,source,description,alert}) => {
 
@@ -15,7 +13,9 @@ const handleUrl = (url) => {
  
 
   
-
+  const handleUrl = (url) => {
+    alert(url)
+  }
 
   return (
     <>
