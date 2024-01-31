@@ -3,16 +3,18 @@ import  Card  from '../Card/Card';
 import Data from '../Data/Data'
 
 import './Home.css';
+import { useNavigate } from 'react-router-dom';
 
 
 export const Home = () => {
 
     const [data, setData] = useState(Data)
 const [info,setInfo] = useState()
+const Navigate = useNavigate()
 
 
   const handlemyUrl = () => {
-     window.location.href = '/'
+     Navigate('/')
    }
     
   const al = (desc) => {
@@ -23,7 +25,7 @@ const [info,setInfo] = useState()
 }
 
 const projectUrl = (view) =>{
-  alert(view)
+  Navigate(view)
 }
 
   function closeShow() {
