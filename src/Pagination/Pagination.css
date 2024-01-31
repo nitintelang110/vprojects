@@ -1,0 +1,84 @@
+.pagination_container{
+   display: flex;
+   flex-direction: column;
+   justify-content: center; 
+   align-items: center;
+  
+}
+.page_number{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   gap: 10px;
+   font-size: 18px;
+   font-family: sans-serif;
+   margin-top: 20px;
+}
+.prev{
+padding:7px;
+display: inline;
+cursor:pointer;
+
+
+}
+.next{
+padding: 7px;
+display: inline;
+cursor:pointer;
+
+}
+.numbers{
+    border: 1px solid rgb(212, 212, 212);
+    list-style-type: none;
+    padding: 5px;
+cursor:pointer;
+caret-color: transparent;
+    
+}
+.active_numbers{
+    background-color: rgb(22, 53, 109);
+      list-style-type: none;
+      padding: 5px;
+      color: aliceblue;
+      cursor:pointer;
+      caret-color: transparent;
+}
+.header_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+    margin-bottom: 25px;
+}
+.select_page{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+width: 60%;
+}
+.table{
+    background-color: rgb(191, 221, 221);
+}
+
+
+.table_head th{
+background-color: rgb(0, 190, 127);
+}
+@media screen and (max-width:1024px) {
+
+.page_number{
+   gap: 2px;
+   font-size: 15px;
+}
+
+
+.header_section{
+    width: 80%;
+}
+.select_page{
+width: 60%;
+}
+
+}

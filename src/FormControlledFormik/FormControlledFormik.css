@@ -1,0 +1,20 @@
+.c_form_container_formik{
+
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+  
+
+}
+.form_container{
+ width: 30%;
+ border: 1px solid rgb(194, 194, 194);
+ padding: 20px;
+ border-radius: 10px;
+}
+.form_label{
+    margin-top: 25px;
+    font-weight: 500;
+    font-family: sans-serif;
+}

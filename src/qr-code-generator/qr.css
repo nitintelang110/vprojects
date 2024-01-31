@@ -1,0 +1,20 @@
+.qrContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 33px;
+
+}
+.inp{
+    padding: 10px;
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 5px;
+}
+.gen_btn{
+    padding: 8px;
+    margin-left: 10px;
+    color: black;
+    background-color:rgb(185, 185, 185);
+    border: 1px solid gray
+}

@@ -1,0 +1,25 @@
+.h_btn{
+    position: relative;
+    width: 3%;
+    padding: 2px;
+    font-size: 18px;
+margin: 10px 10px;
+background-color: rgb(233, 233, 233);
+border: none;
+font-weight: 500;
+font-family: sans-serif;
+border-radius: 5px;
+z-index: 500;
+color: rgb(2, 2, 2);
+border: 1px solid gray;
+
+}
+.h_btn:hover{
+background-color: rgb(202, 202, 202);
+color: rgb(14, 13, 13);
+border: 1px solid gray;
+
+}
+@media screen and (max-width:1050px) {
+      .h_btn{ width: 10%; }
+}

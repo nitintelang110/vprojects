@@ -1,0 +1,38 @@
+.tree-view-container {
+min-height: 400px;
+  width: 350px;
+  background: rgb(0, 71, 110);
+  padding: 20px 60px;
+  
+  
+}
+
+.menu-item{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    cursor: pointer;
+    color:white;
+    font-size: 25px;
+}
+
+.menu-list-container {
+    list-style: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+
+.mContainer{
+  display: flex;
+  justify-content: center;
+}
+.hm_menu_text{
+  color: white;
+  margin-bottom: 50px;
+  font-size: 25px;
+}
+.render_options{
+color: rgb(51, 255, 0);
+margin-left: -50px;
+}

@@ -1,0 +1,4 @@
+.scrolltosection_container{
+    scroll-behavior: smooth;
+    transition: 0.3s ease;
+}

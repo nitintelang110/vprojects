@@ -1,0 +1,37 @@
+.btn_buttons{
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.btn_buttons:hover{
+   background-color: aqua;
+}
+.res_text{
+    color: rgb(235, 235, 235);
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    font-size: 75px;
+} 
+#res_text{
+ font-size: 60px;
+}
+
+@media screen and (max-width:1024px) {
+  .res_text{
+       color: aliceblue;
+       width: 80%;
+       margin-left: 10%;
+       display: flex;
+       justify-content: center;
+       margin-top: 15%;
+       font-size: 45px;
+  } 
+  #res_text{
+    font-size: 40px;
+  }
+
+}
