@@ -100,3 +100,51 @@ font-size: 20px;
 font-family: sans-serif;
 margin: 10px;
 }
+@media screen and (max-width:1024px) {
+
+    .btn_desc{
+        padding: 5px 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: rgb(202, 202, 202);
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+        font-weight: 500;
+        }
+        .btn_desc:hover{
+        cursor: pointer;
+        background-color: rgb(148, 148, 148);
+        
+        }
+        .btn_view{
+        padding: 5px 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: rgb(121, 121, 121);
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 500;
+        color: white;
+        }
+        .btn_view:hover{
+        cursor: pointer;
+        background-color: rgb(197, 197, 197);
+        color: black;
+        }
+        .btn_source{
+        padding: 5px 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: rgb(187, 186, 187);
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+        font-weight: 500;
+        }
+        .btn_source:hover{
+        cursor: pointer;
+        background-color: rgb(88, 88, 88);
+        }
+
+}
