@@ -23,7 +23,7 @@ const [info,setInfo] = useState()
 }
 
 const projectUrl = (view) =>{
-  window.location.href = view;
+  alert(view)
 }
 
   function closeShow() {
