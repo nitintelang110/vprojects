@@ -40,7 +40,7 @@ import './Card.css'
 
 }
 
-export {Card}
+export default Card;
 
 
 
