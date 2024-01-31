@@ -126,7 +126,7 @@ function App() {
  <Route path="/ControlledWithFormik" element={<FormControlledFormik/>} />
 
  {/*Responsive Navbar */}
- <Route path="/responsivenavbar" element={<ResponsiveNavbar/>} />
+ <Route path="/ResponsiveNavbar" element={<ResponsiveNavbar/>} />
 
 {/*Pasgination*/}
 <Route path="/Pagination" element={<Pagination/>} />
