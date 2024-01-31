@@ -125,7 +125,7 @@ function App() {
  <Route path="/ControlledWithFormik" element={<FormControlledFormik/>} />
 
  {/*Responsive Navbar */}
- <Route path="https://vprojects.vercel.app/ResponsiveNavbar" element={<ResponsiveNavbar/>} />
+ <Route path="/ResponsiveNavbar" element={<ResponsiveNavbar/>} />
 
 {/*Pasgination*/}
 <Route path="/Pagination" element={<Pagination/>} />
