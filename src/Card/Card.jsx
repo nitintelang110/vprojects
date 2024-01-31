@@ -6,7 +6,7 @@ import './Card.css'
 
 
 const handleUrl = (url) => {
-  window.location.href = url;
+  alert(url)
 }
 
  const Card = ({id,title,view,source,description,alert}) => {
@@ -31,7 +31,7 @@ const handleUrl = (url) => {
         <div className="btn">
         
         <button className='btn_desc' onClick={()=>alert(descriptions)}>description</button>
-        <button className='btn_view' onClick = {alert("hello")}>view</button>
+        <button className='btn_view' onClick = {()=>handleUrl(view)}>view</button>
          <button  className='btn_source'>source</button>
         </div>
     </div>
