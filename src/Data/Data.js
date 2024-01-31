@@ -3,7 +3,7 @@ const Data = [
         id:1,
         title:"Responsive Navbar",
         description:"This is responsive navbar so you can use this type of navbar for all devices",
-        view:"/ResponsiveNavbar",
+        view:"/resposivenavbar",
         source:"Source"
     },
       {
