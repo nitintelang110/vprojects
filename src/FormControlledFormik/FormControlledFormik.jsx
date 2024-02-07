@@ -28,7 +28,7 @@ const FormControlledFormik = () => {
 
     
             <form className='form_container' onSubmit={handleSubmit}>
-            <h5> This form obeying all validation of formik and yup library.</h5>
+            <h4> This form obeying all validation of formik and yup library.</h4>
                 <label htmlFor='name' className='form_label'>Name</label>
                 <input
                     type='text'
