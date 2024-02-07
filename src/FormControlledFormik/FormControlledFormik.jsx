@@ -26,9 +26,9 @@ const FormControlledFormik = () => {
     return (
         <div className='c_form_container_formik'>
 
-    
+<p style={{color:"yellowgreen" ,fontSize:"20px",fontWeight:"600"}}> This form obeying all validation of formik and yup library.</p>
             <form className='form_container' onSubmit={handleSubmit}>
-            <h4 style={{color:"yellowgreen"}}> This form obeying all validation of formik and yup library.</h4>
+            
                 <label htmlFor='name' className='form_label'>Name</label>
                 <input
                     type='text'
