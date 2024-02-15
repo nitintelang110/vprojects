@@ -1,4 +1,11 @@
 const Data = [
+     {
+        id:0,
+        title:"Dynamic Dependancy DropDown",
+        description:"This is mini project about dyanamic dependancy dropdown with API in which usin API whatever option you select from options of dropdown next dropdown options will render on previous dropdown selection",
+        view:"/DyanamicDropdown",
+        source:"Source"
+    },
     {
         id:1,
         title:"Responsive Navbar",

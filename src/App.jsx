@@ -14,7 +14,8 @@ import { RandomColor } from './random-color';
 import { StarRating } from './star-rating';
 import { TicTacToe } from './tic-tact-toe';
 import { TreeView } from './tree-view';
-import {TextHighlighter} from './TextHighlighter/TextHighlighter';
+import { TextHighlighter } from './TextHighlighter/TextHighlighter';
+
 import menus from './tree-view/data';
 import UseFetchHookTest from './use-fetch/test';
 import UseOnclickOutsideTest from './use-outside-click/test';
@@ -29,6 +30,8 @@ import FormControlledFormik from './FormControlledFormik/FormControlledFormik';
 import ResponsiveNavbar from './ResponsiveNavbar/ResponsiveNavbar';
 import Pagination from './Pagination/Pagination';
 import ScrollToSection from './ScrollToSection/ScrollToSection'
+import { DyanamicDropdown } from './DyanamicDropdown/DyanamicDropdown';
+
 
 //import { FeatureFlagGlobalState } from './feature-flag/context';
 //import { FeatureFlags } from './feature-flag';
@@ -135,7 +138,10 @@ function App() {
           <Route path="/ScrollToSection" element={<ScrollToSection />} />
           
           {/*textHighlighter */}
-<Route path="/textHighlighter" element={<TextHighlighter/>} />
+          <Route path="/textHighlighter" element={<TextHighlighter />} />
+          
+   {/*dyanamic dropdown*/}
+<Route path="/DyanamicDropdown" element={<DyanamicDropdown/>} />       
 
       </Routes>
       </BrowserRouter>
