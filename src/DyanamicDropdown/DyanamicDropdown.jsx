@@ -44,7 +44,7 @@ const [selectState, setSelectState] = useState('');
               <div className="states">
                 <p className="labels">Country</p>
                   <select className='selects' name="" id="" onChange={(e)=>setSelectCountry(e.target.value)} >
-                      <option className='options' value="" key="">--Select--</option>
+                      <option className='options' value={''} key="">--Select--</option>
                       {
                           country.map((data, id) => {
                               return (
@@ -57,7 +57,7 @@ const [selectState, setSelectState] = useState('');
                   <div className="district">
                   <p className="labels">State</p>
                      <select className='selects' name="" id="" onChange={(e)=>setSelectState(e.target.value)} >
-                  <option className='options' value="" key="">--Select--</option>
+                  <option className='options' value={''} key="">--Select--</option>
                   
                  
                   {
@@ -71,7 +71,7 @@ const [selectState, setSelectState] = useState('');
               <div className="city">
               <p className="labels">City</p>
                    <select className='selects' name="" id="" onChange={(e)=>setSelectCity(e.target.value)} >
-                      <option className='options' value="" key="">--Select--</option>
+                      <option className='options' value={''} key="">--Select--</option>
 
                    
                   {

@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items:center;
-   background-color: rgb(230, 230, 230);
+   background-color: rgb(255, 255, 255);
   padding-bottom: 200px;
 
 }
@@ -50,7 +50,7 @@ border: 1px solid rgb(189, 189, 189);
 .heading{
     padding-top: 5px;
     font-size: 20px;
-    color: rgb(0, 45, 53);
+    color: rgb(0, 6, 7);
 }
 .home_Link{
     margin: 30px;
