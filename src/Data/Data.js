@@ -13,6 +13,13 @@ const Data = [
         view:"/ResponsiveNavbar",
         source:"Source"
     },
+     {
+        id:40,
+        title:"Multi Selection DropDown",
+        description:"This is mini project about Multi Selection DropDown in which you can select more than one option from dropdown and you can send more than one field to data base or you can do anything logic with that selected options",
+        view:"/multiselectDropdown",
+        source:"Source"
+    },
       {
         id:2,
         title:"Infinite Scroll",

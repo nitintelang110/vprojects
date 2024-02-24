@@ -31,6 +31,7 @@ import ResponsiveNavbar from './ResponsiveNavbar/ResponsiveNavbar';
 import Pagination from './Pagination/Pagination';
 import ScrollToSection from './ScrollToSection/ScrollToSection'
 import { DyanamicDropdown } from './DyanamicDropdown/DyanamicDropdown';
+import MultiSelectDropDown from './MultiSelect DropDown/MultiSelectDropDown';
 
 
 //import { FeatureFlagGlobalState } from './feature-flag/context';
@@ -141,7 +142,11 @@ function App() {
           <Route path="/textHighlighter" element={<TextHighlighter />} />
           
    {/*dyanamic dropdown*/}
-<Route path="/DyanamicDropdown" element={<DyanamicDropdown/>} />       
+          <Route path="/DyanamicDropdown" element={<DyanamicDropdown />} />   
+
+{/*multiselect dropdown*/}
+          <Route path="/multiselectDropdown" element={<MultiSelectDropDown/>} /> 
+          
 
       </Routes>
       </BrowserRouter>
