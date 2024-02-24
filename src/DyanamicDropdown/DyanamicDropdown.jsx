@@ -27,10 +27,12 @@ const [selectState, setSelectState] = useState('');
         
  }
  
- const handleReset = ()=>{
-    setSelectCountry(''),
-    setSelectState(''),
-    setSelectCity('')
+    const handleReset = () => {
+   
+   
+          setSelectState(''),
+            setSelectCity(''),
+         setSelectCountry('')
  }
   return (
     <div className='dropdown-container'>
@@ -43,7 +45,7 @@ const [selectState, setSelectState] = useState('');
            <div className='dropdowns'>
               <div className="states">
                 <p className="labels">Country</p>
-                  <select className='selects' name="" id="" onChange={(e)=>setSelectCountry(e.target.value)} >
+                  <select className='selects' name="country" id="" onChange={(e)=>setSelectCountry(e.target.value)} >
                       <option className='options' value={''} key="">--Select--</option>
                       {
                           country.map((data, id) => {
@@ -56,7 +58,7 @@ const [selectState, setSelectState] = useState('');
                   </div>
                   <div className="district">
                   <p className="labels">State</p>
-                     <select className='selects' name="" id="" onChange={(e)=>setSelectState(e.target.value)} >
+                     <select className='selects' name="state" id="" onChange={(e)=>setSelectState(e.target.value)} >
                   <option className='options' value={''} key="">--Select--</option>
                   
                  
@@ -70,7 +72,7 @@ const [selectState, setSelectState] = useState('');
                   </select></div>
               <div className="city">
               <p className="labels">City</p>
-                   <select className='selects' name="" id="" onChange={(e)=>setSelectCity(e.target.value)} >
+                   <select className='selects' name="city" id="" onChange={(e)=>setSelectCity(e.target.value)} >
                       <option className='options' value={''} key="">--Select--</option>
 
                    
