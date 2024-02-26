@@ -17,22 +17,24 @@ const [selectState, setSelectState] = useState('');
 //for city
     const [city, setCity] = useState(City.getAllCities());
     const [selectCity, setSelectCity] = useState('');
-
+  
+  console.log()
 
     const handleSubmit = (e) => {
         e.preventDefault()
-        if(setSelectCountry === '' && setSelectState === '' && setSelectCity === ''){alert("Please Select All Fields")}else{
+        if(selectCountry.length <= 0 || selectState.length <= 0 || selectCity.length <= 0){alert("Please Select All Fields" )}else{
             alert(`Country = ${selectCountry}, State =${selectState}, City = ${selectCity}`)
         }
+            
+      
         
  }
  
     const handleReset = () => {
    
-   
           setSelectState(''),
             setSelectCity(''),
-         setSelectCountry('')
+         setSelectCountry('');
  }
   return (
     <div className='dropdown-container'>
@@ -45,12 +47,12 @@ const [selectState, setSelectState] = useState('');
            <div className='dropdowns'>
               <div className="states">
                 <p className="labels">Country</p>
-                  <select className='selects' name="country" id="" onChange={(e)=>setSelectCountry(e.target.value)} >
-                      <option className='options' value={''} key="">--Select--</option>
+                  <select className='selects' name="country" id="" onChange={(e)=>setSelectCountry(e.target.value)}>
+                      <option className='options' value={''} key="" >--Select--</option>
                       {
                           country.map((data, id) => {
                               return (
-                                  <option key={id} value={data.isoCode}>{data.name}</option>
+                                  <option key={id} value={data.isoCode} >{data.name}</option>
                               )
                           })
                      }
