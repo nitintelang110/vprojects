@@ -73,3 +73,12 @@ align-items: center;
     justify-content: center;
     align-items: center;
 }
+
+@media screen and (max-width:'1024px') {
+    .multiselect_container{
+        width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+}
